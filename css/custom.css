@@ -4932,3 +4932,39 @@ header.main-header .header-sticky.active{
 		font-size: 16px;
 	}
 }
+
+
+
+.spec-box {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 40px 30px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.spec-card {
+    border: 1px solid #e6e6e6;
+    border-radius: 8px;
+    padding: 25px 15px;
+    height: 100%;
+    transition: 0.3s ease;
+}
+
+.spec-card h4 {
+    font-size: 15px;
+    font-weight: 600;
+    color: #1f3c88;
+    margin-bottom: 8px;
+}
+
+.spec-card p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    margin: 0;
+}
+
+.spec-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
