@@ -3254,7 +3254,7 @@ header.main-header .header-sticky.active{
 .project-single-image img{
 	width: 100%;
     aspect-ratio: 1 / 0.54;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .project-info,
