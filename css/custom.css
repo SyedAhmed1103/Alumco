@@ -4968,3 +4968,33 @@ header.main-header .header-sticky.active{
     transform: translateY(-6px);
     box-shadow: 0 8px 20px rgba(0,0,0,0.08);
 }
+
+
+.spec-table-center {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.spec-table-wrapper {
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.spec-table {
+    border-collapse: collapse;
+    color: #000000;
+}
+
+.spec-table th,
+.spec-table td {
+    border: 1px solid #000000;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.spec-table th {
+    text-align: left;
+    min-width: 180px;
+}
